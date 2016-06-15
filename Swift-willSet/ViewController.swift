@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         addHomeNotification()
         buildCollectionView()
         buildTableHeaderView()
+
+
         
     }
 
@@ -65,6 +67,7 @@ extension ViewController {
         collectionView.backgroundColor = UIColor.whiteColor()
         
         collectionView.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "home_cell")
+
         view.addSubview(collectionView)
         
     }
